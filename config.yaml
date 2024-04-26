@@ -1,6 +1,6 @@
-baseURL: "https://arkalim.netlify.app"
-languageCode: en-us
-title: Abdur Rahman
+baseURL: "https://danielh55irl.github.io"
+languageCode: en-uk
+title: Daniel Halpin
 theme: PaperMod
 
 menu:
@@ -9,30 +9,14 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
+    - identifier: casestudies
+      name: Case Studies
+      url: /case studies
       weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects
+    - identifier: codeexamples
+      name: Code Examples
+      url: /code examples
       weight: 30
-    - identifier: experience
-      name: Experience
-      url: /experience
-      weight: 40
-    - identifier: search
-      name: Search
-      url: /search
-      weight: 50
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60
-    # - identifier: notes
-    #   name: Notes
-    #   url: https://notes.arkalim.org
-    #   weight: 70
 
 params:
   # theme
@@ -48,14 +32,11 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: As a Senior Software Engineer diving deep into the realms of cloud infrastructure and AI at [**16Bit.ai**](https://www.16bit.ai), I've been stirring up some serious cloud-native concoctions, slicing AWS costs in half (like a budget ninja!), and automating the heck out of everything from ML pipelines to testing — because, let's face it, who has the time? My adventures have taken me from crafting serverless marvels to teaching computers how to understand X-Ray images. Alongside juggling bits and bytes, I've championed customer success and danced through the technical challenges with a bit of flair and a lot of code. I'm all about making tech less intimidating and more fun, one Kubernetes cluster at a time.
-    imageUrl: "home/casual-small-square.jpeg"
+    title: "Daniel Halpin - UX/UI Designer | Content Strategist | Web Developer"
+    subtitle: Motivated recent UX graduate with strong work ethic. Highly skilled in UX Design and Research. Possess a great ability to work in team-based environments and work independently. I am also skilled in Web Development, allowing a unique insight and ability to understand the requirements needed to bring designs to life in a developer handoff context.
+    imageUrl: "home/daniel.jpg"
     imageWidth: 220
     imageHeight: 220
-    # buttons:
-    #   - name: Resume
-    #     url: ""
 
   # List View
   hideDescriptionInList: false
@@ -67,14 +48,12 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:danielhalpin.work@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/danielhalpin-17"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
-
+      url: "https://www.github.com/DanielH55IRL"
+ 
   # text search
   fuseOpts:
     isCaseSensitive: false
